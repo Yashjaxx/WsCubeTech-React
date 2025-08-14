@@ -9,7 +9,7 @@ function App() {
     
     <div className="App">
       
-      <Header/>
+      <Header email="yashjaiswal@gmail.com"/>
       <div className='container'>
         <h1>Welcome Yash</h1>
         <div>
@@ -27,7 +27,7 @@ function App() {
         </div>
 
       </div>
-      <Footer/> 
+      <Footer email="yash"/> 
     </div>
   );
 }
