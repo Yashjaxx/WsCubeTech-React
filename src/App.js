@@ -8,6 +8,9 @@ function App() {
     <div className="App">
       
       <Header/>
+      <div className='container'>
+        <h1>Welcome Yash</h1>
+      </div>
       <Footer/>
       
     </div>
