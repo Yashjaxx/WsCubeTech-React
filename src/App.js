@@ -3,6 +3,11 @@ import Header from './Header';
 import Footer from './Footer';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Container from 'react-bootstrap/esm/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+
 
 function App() {
   return (
@@ -26,6 +31,13 @@ function App() {
         </Card>
         </div>
 
+        <Container>
+          <Row>
+            <ProductItems/>
+            <ProductItems/>
+          </Row>
+        </Container>
+
       </div>
       <Footer email="yash@email"/> 
     </div>
@@ -33,3 +45,11 @@ function App() {
 }
 
 export default App;
+
+function ProductItems(){
+  return(
+    <Col lg="3" md="6">
+      hello
+    </Col>
+  )
+}
