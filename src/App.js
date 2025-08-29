@@ -6,6 +6,8 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAmazon, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -16,7 +18,11 @@ function App() {
       
       <Header name='yash'/>
       <div className='container'>
-        <h1>Welcome Yash</h1>
+        <FontAwesomeIcon icon={faWhatsapp}/>
+        <FontAwesomeIcon icon={faInstagram}/>
+        
+        <h1>Welcome Yash <FontAwesomeIcon icon={faAmazon}/></h1>
+        
         <div>
           <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src="holder.js/100px180" />
